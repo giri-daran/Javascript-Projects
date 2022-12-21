@@ -12,5 +12,4 @@ function colorchange(){
     const colors=Math.floor(Math.random()*color.length);
     document.body.style.background=color[colors];
     spancolor.textContent=color[colors];
-    //console.log(typeof colors);
 }
