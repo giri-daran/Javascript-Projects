@@ -1,0 +1,55 @@
+.Head {
+    display: flex;
+    justify-content: center;
+    
+}
+.Head h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+}
+/* .Content h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+} */
+
+.Content {
+    margin-top: 20px;
+}
+.sml-content{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: burlywood;
+    padding:30px 0;
+}
+.sml-content img{
+    width: 434px;
+    height: 334px;
+    border-radius: 50%;
+}
+.sml-content .nme{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkcyan;
+    text-align: center;
+}
+.sml-content .para2, .sml-content .pstion{
+    text-align: center;
+    width:50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.Content .btnSec1{
+    margin-top: 8px;
+    
+}
+
+.Content .Btnsec2{
+    margin-top: 18px;
+}
