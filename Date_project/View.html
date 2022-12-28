@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Date and Time</title>
+    <link rel="stylesheet" href="./Style.css">
+    <meta name="keywords" content="To show the date and time project" />  
+</head>
+<body>
+
+    <div class="wrap">
+        <header class="Head">
+            <h2 class="para">
+                Get Date
+            </h2>
+        </header>
+
+        <p class="TodayDate" id="localdate"onload="rightClock()"></p>
+        <div class="contentOne">
+            <p class="notes">*If you want to see the current date and time Press the click button</p>
+            <p class="date">Todays date And Time is: <span class="DateTime"></span></p>
+
+            <div class="Input-Section">
+                <label for="Day">Day:</label>
+                <input type="text" class="dayBx" value=""/>
+                
+                <label for="Day">Date:</label>
+                <input type="text" class="dteBx" value=""/>              
+                
+                <label for="Day">Month:</label>
+                <input type="text" class="MnthBx" value=""/>
+                
+                <label for="Day">Year:</label>
+                <input type="text" class="YearBx" value=""/>
+                
+                <label for="Day">Time:</label>
+                <input type="text" class="TimeBx" value=""/>
+
+            </div>
+            <div class="btn-Sec">
+                <button class="btns">Click</button>
+
+            <button class="Updbtns">Update</button>
+            </div>  
+        </div>  
+    </div>
+    
+    <script src="./Script.js" type="text/javascript"></script>
+</body>
+</html>
