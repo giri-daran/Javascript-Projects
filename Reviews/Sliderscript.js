@@ -38,7 +38,7 @@ const detail=[
 ];
 
 function showperson(){
-    //let random= Math.floor(Math.random()*detail.length);
+    
     let detailarry=detail[random()];
     img.src=detailarry.img;
     Name.textContent=detailarry.Name;
