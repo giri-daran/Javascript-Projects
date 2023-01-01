@@ -20,5 +20,15 @@ btn.forEach(function(btns){
             count=0;
             counter.textContent=count;
         }
+
+        if(count > 0 ){
+            counter.style.color="green";
+        }
+        if(count < 0){
+            counter.style.color="red";
+        }
+        if(count == 0){
+            counter.style.color="black";
+        }
    });
 });
