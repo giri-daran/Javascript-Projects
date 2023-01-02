@@ -1,6 +1,6 @@
 const counter=document.querySelector('#counter');
 const btn=document.querySelectorAll('.btns');
-//const start=document.querySelector('StartresetBtn');
+
 let count=0;
 
 btn.forEach(function(btns){
