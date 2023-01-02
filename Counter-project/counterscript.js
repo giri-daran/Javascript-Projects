@@ -6,11 +6,10 @@ let count=0;
 btn.forEach(function(btns){
    btns.addEventListener('click',function(e){
         const cls = e.currentTarget.classList;
-
-        //if(c)
-        if(cls.contains("StartresetBtn")){
-            
-            
+        //or we can use this like this format instead of current target
+        //const cls=this.classList;
+        
+        if(cls.contains("StartresetBtn")){     
             counter.textContent=count++;
         }
         if(cls.contains("ReversBtn")){
@@ -21,6 +20,8 @@ btn.forEach(function(btns){
             counter.textContent=count;
         }
 
+        // for color change of number count text
+
         if(count > 0 ){
             counter.style.color="green";
         }
@@ -30,5 +31,22 @@ btn.forEach(function(btns){
         if(count == 0){
             counter.style.color="black";
         }
+
+        // switch(count){
+        //     case 1:
+        //         count > 0;
+        //         counter.style.color="green";
+        //         break;
+        //     case  2:
+        //         count < 0;
+        //         counter.style.color="red";
+        //         break;
+        //     case 3:
+        //         count == 0;
+        //         counter.style.color="black";
+        //         break;
+        //     default:
+        //         counter.style.color="black";       
+        // }
    });
 });
