@@ -13,11 +13,7 @@
         width: 60%;
     }
 }
-/* @media screen and (max-width:992px){
-    .wrap{
-        width: 60%;
-    }
-} */
+
 .wrap  h1{
     font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
