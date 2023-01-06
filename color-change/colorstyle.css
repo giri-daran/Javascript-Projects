@@ -1,18 +1,25 @@
+body{
+    margin: 0;
+}
 .heads .nav-cntr{
     background-color: wheat;
     display: flex;
+    padding: 0 15px;
     
-    flex-direction: column;
 }
 .nav-cntr h4{
     
     text-align: left;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
 }
 .nav-cntr ul.navBar{
-    display: inline;
+   
     list-style: none;
     text-align: right;
     text-decoration: none;
+    width: 50%;
 }
 .nav-cntr ul.navBar li {
     display: inline;
@@ -28,14 +35,14 @@
     flex-direction: row;
 }
 
-.contentOne{
+.contentOne {
     background-color: black;
-    margin:13px 0;
+    margin: 13px auto;
     padding-bottom: 23px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    width: 70%;
 }
 .contentOne h1{
     color:white;
