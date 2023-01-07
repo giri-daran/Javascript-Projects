@@ -54,7 +54,6 @@ submt.addEventListener('click',submitfunction);
 
 function submitfunction(){
     showperson()
-
 }
 
 
@@ -67,8 +66,7 @@ function nextfunction(){
     if(countplus > detail.length){
         countnuber=0;
     }
-    showperson(countplus);
-    
+    showperson(countplus);    
 }
 
 prevs.addEventListener('click',prevfunction);
@@ -78,6 +76,5 @@ function prevfunction(){
     if(countminus < 0){
         countnuber=detail.length;
     }
-    showperson(countminus);
-    
+    showperson(countminus);   
 }
