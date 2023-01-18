@@ -57,4 +57,3 @@ function rightClock(){
 }
 
 rightClock();
-//localtime.addEventListener('onload',rightClock)
