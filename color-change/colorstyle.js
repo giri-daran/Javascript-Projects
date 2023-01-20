@@ -5,7 +5,6 @@ const Baner=document.querySelector('.contentOne');
 const btns=document.querySelector('.Btns');
 const header=document.getElementsByTagName('header');
 
-
 btns.addEventListener('click',colorchange);
 
 function colorchange(){
