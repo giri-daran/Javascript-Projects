@@ -4,11 +4,9 @@ body{
 .heads .nav-cntr{
     background-color: wheat;
     display: flex;
-    padding: 0 15px;
-    
+    padding: 0 15px;  
 }
 .nav-cntr h4{
-    
     text-align: left;
     width: 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,8 +49,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.btn-Sec .Btns ,.btn-Sec .BtnsHex{
-    
+.btn-Sec .Btns ,.btn-Sec .BtnsHex{ 
     color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
