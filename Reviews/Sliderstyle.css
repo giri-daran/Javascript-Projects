@@ -1,7 +1,6 @@
 .Head {
     display: flex;
     justify-content: center;
-    
 }
 .Head h2{
     font-size: 35px;
@@ -9,19 +8,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: crimson;
 }
-/* .Content h1{
-    font-size: 35px;
-    font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
-} */
-
 .Content {
     margin-top: 20px;
 }
 .sml-content{
     display: flex;
     align-items: center;
-    
     flex-direction: column;
     background-color: burlywood;
     padding:30px 0;
@@ -46,11 +38,9 @@
 }
 
 .Content .btnSec1{
-    margin-top: 8px;
-    
+    margin-top: 8px; 
 }
 
 .Content .Btnsec2{
     margin-top: 18px;
 }
-
