@@ -13,7 +13,6 @@ body{
     text-transform: uppercase;
 }
 .nav-cntr ul.navBar{
-   
     list-style: none;
     text-align: right;
     text-decoration: none;
@@ -42,6 +41,7 @@ body{
     align-items: center;
     width: 70%;
 }
+
 .contentOne h1{
     color:white;
     font-size: 35px;
