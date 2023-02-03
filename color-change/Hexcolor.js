@@ -8,7 +8,7 @@ BntH.addEventListener('click',hexcolor);
 
 function hexcolor(){
     let Hash="#";
-    for(let i=0;i< 6;i++){
+    for(let i=0;i < 6;i++){
         Hash=Hash+colorcode[GendrateRandom()];
         
     }
@@ -19,4 +19,7 @@ function hexcolor(){
 function GendrateRandom(){
     return Math.floor(Math.random()*colorcode.length);
 }
+
+
+
 
