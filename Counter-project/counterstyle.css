@@ -13,7 +13,11 @@
         width: 60%;
     }
 }
-
+@media screen and (max-width:992px){
+    .wrap{
+        width: 50%;
+    }
+}
 .wrap  h1{
     font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,7 +50,4 @@
     border-color:rgba(0, 0, 255, 0.459) ;
     
 }
-
-
-
 
