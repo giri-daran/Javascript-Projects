@@ -27,7 +27,6 @@ function GetDate(){
 
 // for right clock
 
-
 function rightClock(){
     let d= new Date();  //writen this code line again for making the time running.
     let hours=d.getHours();
