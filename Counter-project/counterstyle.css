@@ -8,16 +8,7 @@
     margin:0 auto;
     
 }
-@media screen and (max-width:992px){
-    .wrap{
-        width: 60%;
-    }
-}
-@media screen and (max-width:992px){
-    .wrap{
-        width: 50%;
-    }
-}
+
 .wrap  h1{
     font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,4 +41,29 @@
     border-color:rgba(0, 0, 255, 0.459) ;
     
 }
+@media screen and (max-width:992px){
+    .wrap{
+        width: 60%;
+    }
+}
+@media screen and (max-width:767px){
+    .wrap{
+        width: 100%;
+    }
+    .Btns-sec{
+        margin:13px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btns{
 
+        margin:12px 0;
+    }
+}
+
+@media screen and (max-width:375px){
+    .wrap{
+        width: 100%;
+    }
+}
