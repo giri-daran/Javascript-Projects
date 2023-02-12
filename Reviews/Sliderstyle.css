@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .Head {
     display: flex;
     justify-content: center;
@@ -36,11 +39,66 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 }
-
 .Content .btnSec1{
     margin-top: 8px; 
 }
 
 .Content .Btnsec2{
     margin-top: 18px;
+}
+.prev, .Nxt{
+    border: 2px solid rgb(23, 177, 224);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 15px;
+    margin:0 5px;
+    background-color: chartreuse;
+    color: blue;
+    font-weight:900;
+
+}
+.subt{
+    border: 2px solid rgb(23, 177, 224);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: chartreuse;
+    color: blue;
+    font-weight:900;
+}
+.prev:hover, .Nxt:hover, .subt:hover{
+    background-color: blue;
+    color: chartreuse;
+}
+
+@media screen and (max-width:992px){
+    .sml-content img {
+        width: 333px;
+        height: 270px;
+        border-radius: 50%;
+    }
+    .prev:hover, .Nxt:hover{
+        background-color: blue;
+        color: chartreuse;
+    }
+}
+@media screen and (max-width:767px){
+    .Head h2{
+        text-align: center;
+    }
+    .sml-content .para2, .sml-content .pstion {
+        text-align: left;
+        width: 50%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+    }
+    .sml-content {
+        padding-left:  10px;
+        padding-right:  10px;
+    }
+    .sml-content img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
 }
