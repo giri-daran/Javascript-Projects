@@ -9,8 +9,8 @@ function MiddleReverseAccending(input,k){
     }
 
     const rotate = input.splice(size - k , k);  // we put splice so that it removes from (starting , till the end of array)
-    input.unshift(...rotate);                   // now unshift to insert the value in the begining of the array
-    return input;
+    input.unshift(...rotate);                   // now unshift to insert the value in the begining of the array, 
+    return input;                               //use Spread to remove array inside with other value  array
 }
 
 MiddleReverseAccending([1,2,3,4,5,6,7], 3);
