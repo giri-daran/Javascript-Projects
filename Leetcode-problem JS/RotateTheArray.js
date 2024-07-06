@@ -2,7 +2,7 @@
 
 //output [5,6,7,1,2,3,4]
 
-function MiddleReverse(input,k){
+function MiddleReverseAccending(input,k){
     let size = input.length;                    // get the length of the array
     if(size > k){                               // check condition whethere the array length is higher than given num
         k=k % size;                             // get reminder as the value of k
@@ -13,6 +13,6 @@ function MiddleReverse(input,k){
     return input;
 }
 
-MiddleReverse([1,2,3,4,5,6,7], 3);
+MiddleReverseAccending([1,2,3,4,5,6,7], 3);
 
 // output [5, 6, 7, 1, 2, 3, 4]
