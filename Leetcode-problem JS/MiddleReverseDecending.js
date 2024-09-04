@@ -9,7 +9,7 @@ function MiddleReverseDecending(input, num){  // 3
         num = num%size;
     }
 
-    let rotate = input.splice(size - num, size);
+    let rotate = input.splice(size - num, size);    // splice(startindex, totalcount, item1, ....., itemX)
     let sortRotate = rotate.sort().reverse();       // in this we add sort and reverse to display the spliced number in decending
      input.unshift(...sortRotate);                  // spread operator removes when there is array inside an array
      return input;
