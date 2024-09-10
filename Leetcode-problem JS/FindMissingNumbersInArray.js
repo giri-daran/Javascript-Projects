@@ -31,3 +31,7 @@ if (missingNumbers.length > 0) {
 //Checking for numbers between 3 and 6
 //Checking for numbers between 6 and 7
 //Missing numbers: (3) [2, 4, 5]
+
+
+//if input : const array = [9,6,4,2,3,5,7,0,1];
+// output - 8
